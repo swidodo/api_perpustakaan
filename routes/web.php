@@ -53,6 +53,7 @@ Route::group([
 
     // stock
     Route::get('get-stock', 'StockController@index');
+    Route::post('check-stock', 'StockController@checkstock');
     Route::get('get-history', 'TranspinjamController@history');
 
 });
